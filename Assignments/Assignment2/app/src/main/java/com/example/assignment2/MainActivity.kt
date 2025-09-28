@@ -20,21 +20,7 @@ import androidx.compose.foundation.layout.ExperimentalLayoutApi
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.layout.ModifierLocalBeyondBoundsLayout
 
-/**
- * This project covers concepts from Chapter 5 lessons:
- * - "Flow Rows and Columns" - for creating flexible grid layouts
- * - "Adding Space" - for spacing and arrangement in layouts
- * - "Adding Modifiers" - for layout modifiers and styling
- * - "Custom Modifiers" - for creating reusable modifier patterns
- * - "Click Events" - for handling user interactions
- *
- * Students should review these lessons before starting:
- * - Flow Rows and Columns lesson for grid layout implementation
- * - Adding Space lesson for spacing and arrangement
- * - Adding Modifiers lesson for layout modifiers
- * - Custom Modifiers lesson for modifier patterns
- * - Click Events lesson for user interaction handling
- */
+
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
