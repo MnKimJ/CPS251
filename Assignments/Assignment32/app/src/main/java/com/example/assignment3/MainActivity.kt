@@ -185,7 +185,7 @@ fun SessionSettings(
     val lengths = listOf(5,15,25,45)
 
     lengths.forEach { minutes ->
-        val chosen = sessionLength == minutes
+    val chosen = sessionLength == minutes
         Button(
             onClick = { onSessionLengthChange(minutes) },
             modifier = Modifier
